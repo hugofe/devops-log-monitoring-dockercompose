@@ -59,6 +59,15 @@ Utilizar Percona em cluster com Proxysql para escalabidade e alta disponibilidad
 MongoDB
 Utilizar Percona Server para MongoDB para escalabidade e alta disponibilidade.
 
+Graylog
+Melhorar as metricas e centralização de logs de acordo com o contexto necessário.
+
+ElasticSearch
+Adicionar segurança ssl e autenticação de usuario.
+
+Kafka
+Adicionar kafka para receber os inputs dos logs.
+
 Prometheus
 Adicionar segurança com algum tipo de autenticação e ssl, basic auth e ssl com nginx por exemplo.
 Adicionar cAdvisor para analise de uso e performance dos container.
@@ -66,9 +75,4 @@ Adicionar cAdvisor para analise de uso e performance dos container.
 Grafana
 Adicionar segurança ssl.
 
-Graylog
-Melhorar as metricas e centralização de logs de acordo com o contexto necessário.
-
-ElasticSearch
-Adicionar segurança ssl e autenticação de usuario.
 
