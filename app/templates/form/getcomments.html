@@ -1,0 +1,25 @@
+<HTML>
+<head>
+</head>
+<body>
+    <center>
+        <form method="GET">
+            <table border = 1>
+            <tr>
+                <th> Nome </th>
+                <th> Email </th>
+                <th> Comentario </th>
+            </tr>
+            {% for nome, email, comentario in cursor %}
+                <tr>
+        <td> {{ nome }} </td>
+        <td> {{ email }} </td>
+        <td> {{ comentario }} </td> 
+            </tr>
+                {% endfor %}
+           </table>
+        <a href="/createcomments">Criar comentario</a>
+        </form>
+    </center>
+</body>
+</HTML>
