@@ -42,11 +42,11 @@ Para reproduzir este ambiente é necessário apenas a utilização do comando.
 
 **Linux**
 
-.. code-block:: shell
+```
 docker-compose -f docker-compose.app.yml \
                -f docker-compose.graylog.yml \
                -f docker-compose.monitoring.yml up
-
+```
 
 Futuras melhorias:
 ------------------
