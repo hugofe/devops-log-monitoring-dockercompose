@@ -24,10 +24,6 @@ Para utilização de todos os serviços foram criados três(3) arquivos .yml seg
     - ElasticSearch
     - Graylog
 
-Arquitetura Graylog
-
-.. image:: https://docs.graylog.org/en/3.2/_images/architec_small_setup.png
-
 3. docker-compose.monitoring.yml, contém serviços para subir o prometheus e suas dependências:
     - Prometheus
     - Grafana
