@@ -60,7 +60,7 @@ MongoDB
 - Utilizar Percona Server para MongoDB para escalabidade e alta disponibilidade.
 
 Graylog
--Melhorar as metricas e centralização de logs de acordo com o contexto necessário.
+- Melhorar as metricas e centralização de logs de acordo com o contexto necessário.
 
 ElasticSearch
 - Adicionar segurança ssl e autenticação de usuario.
